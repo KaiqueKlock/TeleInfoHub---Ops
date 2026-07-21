@@ -4,7 +4,7 @@ Sistema desenvolvido em **Python + Streamlit** para acompanhamento operacional d
 
 O projeto nasceu de uma necessidade real durante minha atuação como **Auxiliar de Telecomunicações**, onde era necessário acompanhar simultaneamente mais de uma centena de localidades em processo de migração de links de comunicação.
 
-Ao invés de consultar constantemente planilhas extensas, foi desenvolvido um dashboard operacional capaz de centralizar as informações mais importantes da operação.
+Ao invés de consultar constantemente planilhas extensas, desenvolvi um dashboard operacional capaz de centralizar as informações mais importantes da operação.
 
 ---
 
@@ -62,9 +62,9 @@ Exemplo:
 
 ```
 Claro
-├── Recife
-├── Xanxerê
-├── Lapa
+├── Campinas
+├── Pernambuco
+├── Bahia
 └── ...
 ```
 
@@ -107,8 +107,7 @@ Cada card apresenta:
 - Cidade
 - Endereço
 - Operadora
-- ID Vivo / BR Digital
-- Designação Claro
+- ID / Designação
 - Serviço contratado
 - Banda
 - Empresa responsável
@@ -151,7 +150,7 @@ Operations Hub
 
 ## ExcelService
 
-Responsável pela leitura da planilha FollowUp.
+Responsável pela leitura da planilha de Follow Up.
 
 ---
 
